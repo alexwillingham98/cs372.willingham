@@ -7,6 +7,8 @@
 //
 #include<iostream>
 //unfinished code
+//inspired by https://www.chegg.com/homework-help/questions-and-answers/1-40-points-s-interesting-algorithm-int-equal-int-n-ado-int-j-k-1-q86120519
+// given the type of code and how it iterates i would say the big o is O(n^2)
 using namespace std;
 int anyEqual(int n, int A[50][20]) {
     
@@ -29,18 +31,18 @@ int anyEqual(int n, int A[50][20]) {
         }
     }
 }
-int main(){
-    int n;
-    cout<<"Please enter size of matrix:"<<endl;
-    cin>>n;
-    int A[n][n];
-    cout<<"Enter the matrix element one by one"<<endl;
-    for (int i =0; i<n; i++){
-        for (int j=0; j< n; j++){
-            cin>>A[i][j];
-        }
-    }
+
+
+// Driver code
+int main()
+{
+    int A[] = { 10, 20, 30, 40, 50,100,500,1000 };
+    int x = 20;
+    int n = sizeof(A) / sizeof(A[0]);
     
-    
+    // Function call
+    int result = anyEqual(n, A);
+    (result == -1);
+    cout << "Element is present at index " << result;
     return 0;
 }
