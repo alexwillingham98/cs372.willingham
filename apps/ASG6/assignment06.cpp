@@ -7,8 +7,8 @@
 //
 #include<iostream>
 //unfinished code
-//inspired by https://www.chegg.com/homework-help/questions-and-answers/1-40-points-s-interesting-algorithm-int-equal-int-n-ado-int-j-k-1-q86120519
-// given the type of code and how it iterates i would say the big o is O(n^2)
+/*inspired by https://www.chegg.com/homework-help/questions-and-answers/1-40-points-s-interesting-algorithm-int-equal-int-n-ado-int-j-k-1-q86120519
+*/ given the type of code and how it iterates i would say the big o is O(1)
 using namespace std;
 int anyEqual(int n, int A[50][20]) {
     
@@ -39,10 +39,11 @@ int main()
     int A[] = { 10, 20, 30, 40, 50,100,500,1000 };
     int x = 20;
     int n = sizeof(A) / sizeof(A[0]);
-    
+    for(int i=1,i<20,i++)
+        cout<< intA[i] << endl;
     // Function call
     int result = anyEqual(n, A);
     (result == -1);
-    cout << "Element is present at index " << result;
+    
     return 0;
 }
