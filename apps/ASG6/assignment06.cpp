@@ -8,7 +8,7 @@
 #include<iostream>
 //unfinished code
 /*inspired by https://www.chegg.com/homework-help/questions-and-answers/1-40-points-s-interesting-algorithm-int-equal-int-n-ado-int-j-k-1-q86120519
-*/ given the type of code and how it iterates i would say the big o is O(1)
+ given the type of code and how it iterates i would say the big o is O(1)*/
 using namespace std;
 int anyEqual(int n, int A[50][20]) {
     
